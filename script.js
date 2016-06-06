@@ -138,7 +138,7 @@ function myjsondatabasefunc(id, slug, ent, ents) {
 	var places = [];
     $.ajax({
 	    method: 'GET',
-	    url: 'raw.githubusercontent.com/RamonElias/venezuelan_territories/gh-pages/' +
+	    url: 'https://raw.githubusercontent.com/RamonElias/venezuelan_territories/gh-pages/' +
 	    		ents + '.json',
 		datatype: 'json',
 		async: false,
