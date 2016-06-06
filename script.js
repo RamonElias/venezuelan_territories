@@ -40,7 +40,7 @@ $('.btn').on('click', function(event){
 				places.push('<div class="alert alert-info" align="center" id="' + 
             	info['id'] + '">' + //info[rentitie] + 
 				'<button type="button" ' +
-            	'class="place-info btn btn-default" ' +
+            	'class="button btn btn-default place-info" ' +
             	'data-toggle="tooltip" ' +
             	'data-placement="top" ' +
             	'entitie="'+ entitie +'" ' +
@@ -173,7 +173,7 @@ function myjsondatabasefunc(id, slug, ent, ents) {
 					places.push('<div class="alert alert-info" align="center" id="' + 
                 	info['id'] + '">' +
 					'<button type="button" ' +
-                	'class="place-info btn btn-default" ' +
+                	'class="button btn btn-default place-info" ' +
                 	'data-toggle="tooltip" ' +
                 	'data-placement="top" ' +
                 	'entitie="'+ entitie +'" ' +
